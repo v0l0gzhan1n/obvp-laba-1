@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <h1>Пользователь {isBanned ? "забанен" : "не забанен"}</h1>
+      <h1>Пользователь {isBanned ? "Забанен" : "не забанен"}</h1>
       {isBanned ? (
         <button onClick={() => setIsBanned(false)}>Разбанить</button>
       ) : (
